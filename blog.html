@@ -51,7 +51,8 @@
         <div class="comment-box">
             <h3>Leave A Comment</h3>
 
-            <form action="form-handler.php" class="comment-form">
+            <form action="https://api.web3forms.com/submit" method="POST" class="comment-form">
+                <input type="hidden" name="access_key" value="3c044d07-8d2e-4304-b221-1bc7928c5562">
                 <input type="text" name="name" placeholder="Enter Name">
                 <input type="email" name="email" placeholder="Enter Your Email">
                 <textarea row="5" name="message" placeholder="Your Comment"></textarea>
